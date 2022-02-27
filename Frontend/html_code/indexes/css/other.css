@@ -1,0 +1,67 @@
+/* body {
+  height: 100vh;
+  text-align: center;
+} */
+/*Trigger Button*/
+/* .login-trigger {
+  font-weight: bold;
+  color: #fff;
+  background: linear-gradient(to bottom right, #b05574, #f87e7b);
+  padding: 15px 30px;
+  border-radius: 30px;
+  position: relative;
+  top: 50%;
+} */
+
+/*Modal*/
+h4 {
+  font-weight: bold;
+  color: #fff;
+}
+.close {
+  color: #fff;
+  transform: scale(1.2);
+}
+.modal-content {
+  font-weight: bold;
+  background: linear-gradient(to bottom right, #f87e7b, #b05574);
+}
+.form-control {
+  margin: 1em 0;
+}
+.form-control:hover,
+.form-control:focus {
+  box-shadow: none;
+  border-color: rgb(0, 0, 0);
+}
+.username,
+.password {
+  border: none;
+  border-radius: 0;
+  box-shadow: none;
+  border-bottom: 2px solid rgb(0, 0, 0);
+  padding-left: 0;
+  font-weight: normal;
+  background: transparent;
+}
+.form-control::-webkit-input-placeholder {
+  color: #eee;
+}
+.form-control:focus::-webkit-input-placeholder {
+  font-weight: bold;
+  color: rgb(102, 99, 99);
+}
+.login {
+  padding: 6px 20px;
+  border-radius: 20px;
+  background: none;
+  border: 2px solid #fab87f;
+  color: #fab87f;
+  font-weight: bold;
+  transition: all 0.5s;
+  margin-top: 1em;
+}
+.login:hover {
+  background: #fab87f;
+  color: #fff;
+}

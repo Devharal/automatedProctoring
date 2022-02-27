@@ -9,6 +9,7 @@
 		
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 		<link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/other.css"/>
   </head>
   <body>
 		
@@ -21,8 +22,8 @@
 	            <a href="./stuindex.html">Student Home</a>
 	          </li>
 	          <li>
-	              <a href="#">Give exam</a>
-	          </li>
+              <a href="#" data-target="#login" data-toggle="modal">Give Exam</a>
+            </li>
 	          <li>
               <a href="./sthistory.html">Previous given exams</a>
 	          </li>
@@ -80,6 +81,36 @@
         </div>
       </div>
 		</div>
+
+    <div id="login" class="modal fade" role="dialog">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-body">
+            <button data-dismiss="modal" class="close">&times;</button>
+            <h4>Exam-login</h4>
+            <form>
+              <input
+                type="text"
+                name="Exam id"
+                class="username form-control"
+                placeholder="Exam id"
+              />
+              <input
+                type="password"
+                name="password"
+                class="password form-control"
+                placeholder="password"
+              />
+              <input
+                class="btn btn-primary btn-lg"
+                type="submit"
+                value="Submit"
+              />
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <script src="js/jquery.min.js"></script>
     <script src="js/popper.js"></script>
