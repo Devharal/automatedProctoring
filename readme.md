@@ -5,21 +5,46 @@ Team members:
 2. Dev Haral
 3. Ashutosh Sharma
 
+
+ <a href="https://git.io/typing-svg">
+    <img src="https://readme-typing-svg.herokuapp.com/?lines=Hello,+There!+👋;Nice+to+meet+you!&center=true&size=30">
+  </a>
+
+
+
 # Automated Proctoring
 
-**Exam Security Done.Right!**:  Put a meaningful, short, plain-language description of what
-this project is trying to accomplish and why it matters.
-Describe the problem(s) this project solves.
-Describe how this software can improve the lives of its audience.
 
-Other things to include:
+<img align="right" alt="GIF" src="https://github.com/abhisheknaiidu/abhisheknaiidu/blob/master/code.gif?raw=true" width="500" height="320" />
 
-  - **Technology stack**: Technology skills used for project are html ,css,python ,javascript.django,bootstrap.
+
+
+**Exam Security Done.Right!**:  
+
+
+
+
+
+
+  ### Languages and Tools:
+
+<code><img height="27" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/python/python.png" alt="python"></code>
+<code><img height="27" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png" alt="javascript"></code>
+<code><img height="27" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/nodejs/nodejs.png" alt="nodejs"></code>
+<code><img height="27" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original.svg" alt="expressjs"></code>
+<code><img height="27" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/react/react.png" alt="react"></code>
+<code><img height="27" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/graphql/graphql.png" alt="graphql"></code>
+<code><img height="27" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/sql/sql.png" alt="sql"></code>
+<code><img height="27" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSTTzPAw-55ssm1Im594xYZ9eRQu2JylrkYLg&usqp=CAU" alt="mongodb"></code>
+<code><img height="27" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg" alt="git"></code>
+<code><img height="27" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/terminal/terminal.png" alt="terminal"></code>
+
+<!--
+<code><img height="25" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/sass/sass.png" alt="sass"></code>
+-->
   
 
-**Screenshot**: If the software has visual components, place a screenshot after the description; e.g.,
 
-![](https://raw.githubusercontent.com/cfpb/open-source-project-template/main/screenshot.png)
 
 
 ## Dependencies
@@ -28,11 +53,31 @@ Describe any dependencies that must be installed for this software to work.
 This includes programming languages, databases or other storage mechanisms, build tools, frameworks, and so forth.
 If specific versions of other software are required, or known not to work, call that out.
 
-## Installation
+## PROPOSED SYSTEM
+# A) Authentication with Image Verification
+1) Basic Login, Register, Forgot Password, Change Password, etc
+2) System allows only one login per user, so that user can’t do any unfair means.
+3) System will verify image of user at every time of login and also in exam using face recognition technology.
 
-Detailed instructions on how to install, configure, and get the project running.
-This should be frequently tested to ensure reliability. Alternatively, link to
-a separate [INSTALL](INSTALL.md) document.
+
+# B) Professor 
+1) Using AI , professor can generate questions & answers, the 2 types of questions & answer can be generated: objective & subjective.
+2) Professor can create exam, view exam history, share details of exam with students, view questions, update, delete questions, but update & delete questions will not work at the time of exam & after the exam.
+3) Professor can insert marks of subjective & practical exam & also publish the results, view results.
+4) Professor can view Live Monitoring of Exam & also can view proctoring logs of the students.
+5) Professor can report problems, recharge exam wallet, view FAQ, contact us.
+
+# C) Students
+1) Give/Take Exam
+2) Check Exam History
+3) Check Results
+4) Report Problems
+
+# D) Exam 
+1) Types of Exam Supported:
+    - Objective
+    - Subjective
+    - Practical 
 
 ## Configuration
 
@@ -40,9 +85,10 @@ If the software is configurable, describe it in detail, either here or in other 
 
 ## Usage
 
-Show users how to use the software.
-Be specific.
-Use appropriate formatting when showing code snippets.
+Talk to me about:
+- Front-end development using **HTML, Javascript, CSS, Bootstrap**.
+- Backend development using **Flask, Django**.
+- Solving Data structure and algorithm questions in **Java and Python**.
 
 ## How to test the software
 
@@ -84,3 +130,7 @@ General instructions on _how_ to contribute should be stated with a link to [CON
 1. Projects that inspired you
 2. Related projects
 3. Books, papers, talks, or other sources that have meaningful impact or influence on this project
+
+<p align="center">
+        <img src="https://raw.githubusercontent.com/bornmay/bornmay/Update/svg/Bottom.svg" alt="Github Stats" />
+</p>
