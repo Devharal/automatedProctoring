@@ -501,7 +501,7 @@ section {
 }
 .details .content h3 {
   font-weight: 700;
-  font-size: 32px;
+  font-size: 60px;
   color: #47536e;
 }
 .details .content ul {
@@ -512,7 +512,7 @@ section {
   padding-bottom: 10px;
 }
 .details .content ul i {
-  font-size: 24px;
+  font-size: 40px;
   padding-right: 2px;
   color: #5777ba;
   line-height: 0;
